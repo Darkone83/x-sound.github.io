@@ -1,0 +1,21 @@
+{
+  "name": "X-Sound",
+  "version": "1.0",
+  "images": [
+    {
+      "src": "images/dc.png",
+      "label": "Darkone Customs"
+    }
+  ],
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "X-Sound.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
